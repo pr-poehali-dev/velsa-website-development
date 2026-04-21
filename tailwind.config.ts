@@ -57,12 +57,15 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
-				neon: '#D4FF00',
-				'neon-dim': '#A8CC00',
-				dark: '#0A0A0A',
-				'dark-2': '#111111',
-				'dark-3': '#1A1A1A',
-				'dark-4': '#222222',
+				neon: '#C8973A',
+				'neon-dim': '#A07828',
+				'neon-light': '#E8B86D',
+				'velsa-blue': '#1E3A5F',
+				'velsa-blue-light': '#2B5080',
+				dark: '#0C0B09',
+				'dark-2': '#141210',
+				'dark-3': '#1C1915',
+				'dark-4': '#25211A',
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
@@ -99,8 +102,8 @@ export default {
 					to: { transform: 'translateX(-50%)' }
 				},
 				'pulse-neon': {
-					'0%, 100%': { boxShadow: '0 0 20px rgba(212,255,0,0.4)' },
-					'50%': { boxShadow: '0 0 40px rgba(212,255,0,0.8), 0 0 80px rgba(212,255,0,0.3)' }
+					'0%, 100%': { boxShadow: '0 0 20px rgba(200,151,58,0.4)' },
+					'50%': { boxShadow: '0 0 40px rgba(200,151,58,0.7), 0 0 80px rgba(200,151,58,0.2)' }
 				},
 				'shimmer': {
 					from: { backgroundPosition: '-200% center' },
